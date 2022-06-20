@@ -1,4 +1,4 @@
-# Robotics and Design project
+# Robotics and Design project - a.a. 2021-2022
 Make a wearable robot able to engage interactions with third people.
 
 <img src="Documentation/A.N.D.I..png" />
