@@ -9,6 +9,7 @@ Text Text
 ## Electronics organization
 Here are reported the wiring schema of the robot.
 
+Built around a `Raspberry Pi 4B`, a `Raspberry Pi Protoboard` and an `Adafruit Stereo Speaker Bonnet`
 Input:
 - 1 button
 - 1 microphone
@@ -22,7 +23,10 @@ Output:
 <img src="Documentation/Circuit diagram.png" />
 
 ## Code organization
-The code can be seen in the folders main.
+We wrote the code to test each electronic component independently in order to better understand their behaviour. We have programmed in Python since we are using a RaspberryPi.
+The code of the tests can be seen in the folder [test](/test/).
+
+The final code is int the main folder.
 
 ## Team
 ### Engineers
