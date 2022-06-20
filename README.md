@@ -6,7 +6,7 @@ Make a wearable robot able to engage interactions with third people.
 ## How to run the project
 1. Clone the repository
     ```bash
-    git clone {repository URL}
+    git clone https://github.com/ToMmAzO/Robotics_Design_Project_2022
     ```
 
 2. Upload the [main](/main/) on your RaspberryPi.
