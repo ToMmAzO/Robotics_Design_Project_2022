@@ -6,7 +6,7 @@ from random import randint
 
 class Angel:
 
-	servo1_ang_min = 0
+	servo1_ang_min = 30
 	servo1_ang_max = 180
 	servo1_ang_mil = 90
 
@@ -43,9 +43,9 @@ class Angel:
 
 	def __init__(self, pin_yes, pin_no, pin_base):
 
-		self.servo_pin1 = pin_yes  # 11 #si
-		self.servo_pin2 = pin_no  # 12 #no
-		self.servo_pin3 = pin_base  # 13 #base
+		self.servo_pin1 = pin_yes  # 25 #si
+		self.servo_pin2 = pin_no  # 13 #no
+		self.servo_pin3 = pin_base  # 12 #base
 
 		GPIO.setwarnings(False)
 		GPIO.setmode(GPIO.BCM)

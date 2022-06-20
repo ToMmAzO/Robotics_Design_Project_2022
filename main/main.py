@@ -77,17 +77,19 @@ def voice_recognizer(out_q_angel, out_q_devil, lock, sonar_left, sonar_right, pa
 			#out_q.put("touch devil")
 		pad_devil_already_pressed = pad_devil.value
 
-
+		
 		## person approaching
 		if person_detected == False and state_on_off == True:
+			print("person check")
 			distance_sonar_left = sonar_left.mesure()
 			distance_sonar_right = sonar_right.mesure()
+			print("distances : {} and {}".format(distance_sonar_left, distance_sonar_right))
 			if (30<distance_sonar_left<120) and (30<distance_sonar_right<120):
 				person_detected = True
 				out_q_angel.put("person")
 				sleep(1)
 				out_q_devil.put("person")
-
+		
 		# voice and random based avtivation
 
 		if rec.AcceptWaveform(data):
@@ -105,6 +107,7 @@ def voice_recognizer(out_q_angel, out_q_devil, lock, sonar_left, sonar_right, pa
 				if ((time()-random_start) > 10):  # time before automated interection begins
 					print("robot random action")
 					out_q_angel.put("time based")
+					sleep(0.8)
 					out_q_devil.put("time based")
 					timer_state = False
 
