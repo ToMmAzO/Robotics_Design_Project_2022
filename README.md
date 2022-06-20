@@ -6,3 +6,5 @@ Text Text
 
 ## Electronics organization
 Here are reported the wiring schema of the robot
+
+<img src="Documentation/Circuit diagram.pdf" />
