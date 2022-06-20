@@ -9,7 +9,8 @@ Text Text
 ## Electronics organization
 Here are reported the wiring schema of the robot.
 
-Built around a `Raspberry Pi 4B`, a `Raspberry Pi Protoboard` and an `Adafruit Stereo Speaker Bonnet`
+Built around a `Raspberry Pi 4B`, a `Raspberry Pi Protoboard` and an `Adafruit Stereo Speaker Bonnet`.
+
 Input:
 - 1 button
 - 1 microphone
