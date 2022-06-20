@@ -42,11 +42,11 @@ The final code is in the [main](/main/) folder.
 ## Team
 ### Engineers
 
-* __Giorgia Martelli__
+* [__Erica Ceriotti__](https://github.com/ericaceriotti)
 * [__Tommaso Pozzi__](https://github.com/ToMmAzO)
 * __Mehavannen Prabakaran__
 
 ### Designers
 
-* __Erica Ceriotti__
+* __Giorgia Martelli__
 * __Jacopo Ottaviani__
