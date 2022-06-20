@@ -1,7 +1,7 @@
 # Robotics and Design project
 Make a wearable robot able to engage interactions with third people.
 
-<img src="Documentation/A.N.D.I..png" />
+<img src="Documentation/andi logo.png" />
 
 ## Abstract
 Text Text
